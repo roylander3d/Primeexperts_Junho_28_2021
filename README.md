@@ -1,7 +1,8 @@
 # Primeexperts_Junho_28_2021
 Projeto prime experts criando repo para projeto robotframework
 
-- Comandos git
+                - Comandos git -
+
     . git clone - clonar o repositorio remoto
 
     . git status - verifica a area de trabalho local
@@ -9,9 +10,10 @@ Projeto prime experts criando repo para projeto robotframework
     . git add . - adiciona os arquivos modificados dentro do pacote "commit"
 
     . git commit -m "mensagem" - Cria o commit a partir do pacote com mensagem
-    
+
     . git push -  envia para o repositorio remoto github
 
+----------------------------------------------------------------------------------
         -EXERCICIOS DURANTE CURSO PRIME_EXPERTS-
 
 - Como Instalar o Robot framework:
@@ -19,7 +21,6 @@ pip install -u robotframework
 
 
 
-----------------------------------------------------------------------------------
 - Testando argumentos embutidos
 
 - Testando argumentos e retornos
