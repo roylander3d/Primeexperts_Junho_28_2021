@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210630 20:07:59.058" rpa="false" schemaversion="2">
+<suite id="s1" name="For" source="C:\Users\roy\Documents\Projetos Prime\Primeexperts_Junho_28_2021\for">
+<suite id="s1-s1" name="For" source="C:\Users\roy\Documents\Projetos Prime\Primeexperts_Junho_28_2021\for\for.robot">
+<test id="s1-s1-t1" name="contando até 9">
+<kw name="Contar">
+<arg>0</arg>
+<arg>9</arg>
+<for flavor="IN RANGE">
+<var>${count}</var>
+<value>${num_inicial}</value>
+<value>${num_final}</value>
+<iter>
+<var name="${count}">0</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nEstou no numero: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210630 20:07:59.104" endtime="20210630 20:07:59.105"/>
+</kw>
+<status status="PASS" starttime="20210630 20:07:59.104" endtime="20210630 20:07:59.105"/>
+</iter>
+<iter>
+<var name="${count}">1</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nEstou no numero: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210630 20:07:59.105" endtime="20210630 20:07:59.106"/>
+</kw>
+<status status="PASS" starttime="20210630 20:07:59.105" endtime="20210630 20:07:59.106"/>
+</iter>
+<iter>
+<var name="${count}">2</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nEstou no numero: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210630 20:07:59.106" endtime="20210630 20:07:59.106"/>
+</kw>
+<status status="PASS" starttime="20210630 20:07:59.106" endtime="20210630 20:07:59.106"/>
+</iter>
+<iter>
+<var name="${count}">3</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nEstou no numero: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210630 20:07:59.106" endtime="20210630 20:07:59.107"/>
+</kw>
+<status status="PASS" starttime="20210630 20:07:59.106" endtime="20210630 20:07:59.107"/>
+</iter>
+<iter>
+<var name="${count}">4</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nEstou no numero: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210630 20:07:59.107" endtime="20210630 20:07:59.108"/>
+</kw>
+<status status="PASS" starttime="20210630 20:07:59.107" endtime="20210630 20:07:59.108"/>
+</iter>
+<iter>
+<var name="${count}">5</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nEstou no numero: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210630 20:07:59.108" endtime="20210630 20:07:59.109"/>
+</kw>
+<status status="PASS" starttime="20210630 20:07:59.108" endtime="20210630 20:07:59.109"/>
+</iter>
+<iter>
+<var name="${count}">6</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nEstou no numero: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210630 20:07:59.109" endtime="20210630 20:07:59.109"/>
+</kw>
+<status status="PASS" starttime="20210630 20:07:59.109" endtime="20210630 20:07:59.109"/>
+</iter>
+<iter>
+<var name="${count}">7</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nEstou no numero: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210630 20:07:59.109" endtime="20210630 20:07:59.110"/>
+</kw>
+<status status="PASS" starttime="20210630 20:07:59.109" endtime="20210630 20:07:59.110"/>
+</iter>
+<iter>
+<var name="${count}">8</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nEstou no numero: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210630 20:07:59.111" endtime="20210630 20:07:59.111"/>
+</kw>
+<status status="PASS" starttime="20210630 20:07:59.110" endtime="20210630 20:07:59.111"/>
+</iter>
+<status status="PASS" starttime="20210630 20:07:59.104" endtime="20210630 20:07:59.111"/>
+</for>
+<status status="PASS" starttime="20210630 20:07:59.103" endtime="20210630 20:07:59.111"/>
+</kw>
+<status status="PASS" starttime="20210630 20:07:59.103" endtime="20210630 20:07:59.112"/>
+</test>
+<doc>Testando lacos (for) com robot</doc>
+<status status="PASS" starttime="20210630 20:07:59.084" endtime="20210630 20:07:59.113"/>
+</suite>
+<status status="PASS" starttime="20210630 20:07:59.060" endtime="20210630 20:07:59.114"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="For">For</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="For">For.For</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
